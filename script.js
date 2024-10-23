@@ -8,6 +8,8 @@ window.onload = function () {
         [ 'banners/banner4.png', 'Banner Image 4' ],
         [ 'banners/banner5.png', 'Banner Image 5' ]
     );
+    // Slideshow Time
+    let time = 3000;
     // Get next image button (arrow right)
     let nextBtn = document.getElementById('nextImage');
     // Get previous image button (arrow left)
@@ -53,7 +55,7 @@ window.onload = function () {
     // Function to start the slideshow 
     function startInterval() {
         // Set an interval to run the slideshow 
-        myInterval = setInterval(nextImageFunction, 3000);
+        myInterval = setInterval(nextImageFunction, time);
         // Function to hide the notification banner
         hideNotification();
     }
