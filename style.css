@@ -36,20 +36,12 @@
 #imageDiv {
     z-index: 0;
     width: 960px;
-
-}
-
-#carouselImg {
-    /* display: none; */
 }
 
 #carouselImg {
     width: 960px;
-    
-    /* background-image: url("banners/banner1.png"); */
     height: 540px;
-    /* transition:opacity 5s linear;
-    animation-name: carousel; */
+    animation-name: carousel 3s ease-in;
 }
 
 ul img, ul input {
@@ -71,7 +63,7 @@ ul img, ul input {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
+
     padding: 0.25em;
 }
 

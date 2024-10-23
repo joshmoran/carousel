@@ -1,4 +1,4 @@
-// Only run code when the window has been laoded
+// Only run code when the window has been loaded
 window.onload = function () {
     // Create array of banner images and alt text
     const imgs = new Array(
@@ -61,7 +61,7 @@ window.onload = function () {
     // Function to show the notification banner 
     function showNotification() {
         // On the banner show some text
-        notificationEl.textContent = 'Image has been hovered for 1 second';
+        notificationEl.textContent = 'Slideshow has stopped';
         // Unhide the banner element 
         notificationEl.style.display = 'block';
     }
