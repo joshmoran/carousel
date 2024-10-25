@@ -1,4 +1,7 @@
 # Carousel App
+
+> A simple carousel gallery using vanilla JavaScript 
+
 ## Index
 1. Features 
 2. Event Handling
